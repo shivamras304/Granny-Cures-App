@@ -30,7 +30,7 @@ public class ListFragment extends Fragment {
         mActivity =  activity;
     }
 
-    AilmentAdapter myAdapter ;
+   public static AilmentAdapter myAdapter ;
 
 
 

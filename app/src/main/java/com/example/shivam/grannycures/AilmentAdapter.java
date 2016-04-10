@@ -13,15 +13,21 @@ import java.util.List;
 /**
  * Created by Rishabh on 4/10/16.
  */
-public class AilmentAdapter extends ArrayAdapter<String> {
+public class AilmentAdapter extends ArrayAdapter<String>  {
+
+
 
     private Context myContext ;
     private List<String> myAilmentNames;
+
     public AilmentAdapter(Context context, int resource, List<String> objects) {
         super(context, resource, objects);
         myContext = context ;
         myAilmentNames = objects ;
+
+
     }
+
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
