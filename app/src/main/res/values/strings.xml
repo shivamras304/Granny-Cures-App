@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Granny Cures</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">Search Ailment</string>
+    <string name="search_title">Search</string>
+    <string name="action_share">Share</string>
+    <string name="welcome">You are in good hands of granny now!</string>
+</resources>
